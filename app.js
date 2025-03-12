@@ -1,7 +1,7 @@
-let listaDeNomesSorteados = [];
+let listaDeNomesParticipantes = [];
 
 function adicionarAmigo() {
     let amigo = document.getElementById('amigo').value;
     listaDeNomesSorteados.push(amigo)
-    console.log(listaDeNomesSorteados)
+    console.log(listaDeNomesParticipantes)
 }
